@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Request Locksmith Service | Secure Lock Solutions Orange County</title>
-  <meta name="description" content="Request locksmith service from Secure Lock Solutions. Emergency lockouts, lock changes, car keys, and security solutions in Orange County CA. Fast 24/7 response." />
+<meta name=\"description\" content=\"Request locksmith service from Secure Lock Solutions. Emergency lockouts, lock changes, car keys, and security solutions in Orange County CA. Open Sun 12AM - Fri 1PM.\" />
   <meta name="keywords" content="request locksmith, locksmith appointment, locksmith service Orange County, contact locksmith, book locksmith, emergency locksmith" />
   <link rel="canonical" href="https://securelocksmithsolution.com/serv_form.html" />
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
@@ -476,7 +476,7 @@
       <a href="tel:+17143419244">
         <i class="fas fa-phone-alt"></i> (714) 341-9244
       </a>
-      <small>24/7 Emergency Service Available</small>
+      <small>Hours: Sun 12AM - Fri 1PM | Closed: Fri 1PM - Sun 12AM</small>
     </div>
 
     <h2><i class="fas fa-calendar-check"></i> Book Your Appointment</h2>
@@ -771,6 +771,46 @@
       // Form submission
       $('#myForm').on('submit', function(e) {
         e.preventDefault();
+        
+        // Check if business is closed (Friday 1PM to Sunday 12AM)
+        const now = new Date();
+        const day = now.getDay(); // 0 = Sunday, 5 = Friday, 6 = Saturday
+        const hour = now.getHours();
+        
+        // Closed: Friday after 1PM (day=5, hour>=13), all Saturday (day=6), Sunday before midnight is actually open
+        // So closed period: Friday 1PM (13:00) to Sunday 12AM (00:00)
+        const isClosed = (day === 5 && hour >= 13) || // Friday after 1PM
+                         (day === 6); // All of Saturday
+        
+        if (isClosed) {
+          // Show closed message
+          const closedHtml = `
+            <div style="text-align: center; padding: 30px;">
+              <div style="width: 80px; height: 80px; border-radius: 50%; background: rgba(220, 53, 69, 0.15); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                <i class="fas fa-clock" style="font-size: 2.5em; color: #dc3545;"></i>
+              </div>
+              <h3 style="color: #dc3545; margin-bottom: 15px;">We're Currently Closed</h3>
+              <p style="color: #666; margin-bottom: 20px; line-height: 1.6;">
+                Our office hours are:<br>
+                <strong style="color: #333;">Sunday 12:00 AM - Friday 1:00 PM</strong>
+              </p>
+              <p style="color: #888; margin-bottom: 25px;">
+                We're closed from Friday 1:00 PM until Sunday 12:00 AM.<br>
+                Please reach out during our business hours.
+              </p>
+              <div style="background: #f8f9fa; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+                <p style="margin: 0 0 10px 0; color: #666;"><i class="fas fa-calendar-alt" style="color: #D4AF37;"></i> We'll be back:</p>
+                <p style="margin: 0; font-size: 1.2em; font-weight: bold; color: #28a745;">Sunday at 12:00 AM</p>
+              </div>
+              <button onclick="location.reload()" class="btn btn-next" style="width: 100%;">
+                <i class="fas fa-redo"></i> Try Again Later
+              </button>
+            </div>
+          `;
+          $('#form-wrapper').html(closedHtml);
+          return;
+        }
+        
         updateDateTimeField();
 
         // Build a well-structured message with all form data

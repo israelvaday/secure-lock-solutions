@@ -2082,6 +2082,52 @@ ul.icons li a:hover {
 		}
 	}
 
+/* Sticky Contact Form Button (Left Side) */
+	.sticky-contact-btn {
+		position: fixed;
+		bottom: 20px;
+		left: 20px;
+		z-index: 9999;
+		background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+		color: #fff !important;
+		padding: 15px 25px;
+		border-radius: 50px;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.1em;
+		box-shadow: 0 4px 20px rgba(40, 167, 69, 0.5);
+		transition: all 0.3s ease;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	
+	.sticky-contact-btn:hover {
+		transform: translateY(-3px);
+		box-shadow: 0 6px 30px rgba(40, 167, 69, 0.7);
+		background: linear-gradient(135deg, #34ce57 0%, #28a745 100%);
+		color: #fff !important;
+	}
+	
+	.sticky-contact-btn i {
+		font-size: 1.2em;
+	}
+	
+	@media screen and (max-width: 736px) {
+		.sticky-contact-btn {
+			bottom: 15px;
+			left: 15px;
+			padding: 15px;
+			font-size: 0.95em;
+			border-radius: 50%;
+			position: fixed !important;
+			z-index: 99999 !important;
+		}
+		.sticky-contact-btn span {
+			display: none;
+		}
+	}
+
 /* Tech Locator Section */
 	#tech-locator-wrapper {
 		background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0d1f3c 100%);
