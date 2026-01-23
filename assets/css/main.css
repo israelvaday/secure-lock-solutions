@@ -2067,21 +2067,21 @@ ul.icons li a:hover {
 			display: none;
 		}
 		
-		/* Show mobile call button */
+		/* Show mobile call button with number */
 		.sticky-call-btn.mobile-call {
 			display: flex;
-			bottom: 15px;
+			bottom: 75px;
 			right: 15px;
 			left: auto;
 			transform: none;
-			padding: 15px;
+			padding: 12px 20px;
 			font-size: 0.95em;
-			border-radius: 50%;
+			border-radius: 50px;
 			position: fixed !important;
 			z-index: 99999 !important;
 		}
 		.sticky-call-btn.mobile-call span {
-			display: none;
+			display: inline;
 		}
 	}
 
@@ -2120,16 +2120,17 @@ ul.icons li a:hover {
 	@media screen and (max-width: 736px) {
 		.sticky-contact-btn {
 			bottom: 15px;
-			left: 15px;
+			right: 15px;
+			left: auto;
 			transform: none;
-			padding: 15px;
+			padding: 12px 20px;
 			font-size: 0.95em;
-			border-radius: 50%;
+			border-radius: 50px;
 			position: fixed !important;
 			z-index: 99999 !important;
 		}
 		.sticky-contact-btn span {
-			display: none;
+			display: inline;
 		}
 	}
 
