@@ -2007,7 +2007,8 @@ ul.icons li a:hover {
 	.sticky-call-btn {
 		position: fixed;
 		bottom: 20px;
-		right: 20px;
+		left: 50%;
+		transform: translateX(calc(-50% - 110px));
 		z-index: 9999;
 		background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
 		color: #fff !important;
@@ -2071,6 +2072,8 @@ ul.icons li a:hover {
 			display: flex;
 			bottom: 15px;
 			right: 15px;
+			left: auto;
+			transform: none;
 			padding: 15px;
 			font-size: 0.95em;
 			border-radius: 50%;
@@ -2086,7 +2089,8 @@ ul.icons li a:hover {
 	.sticky-contact-btn {
 		position: fixed;
 		bottom: 20px;
-		left: 20px;
+		left: 50%;
+		transform: translateX(calc(-50% + 110px));
 		z-index: 9999;
 		background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
 		color: #fff !important;
@@ -2117,6 +2121,7 @@ ul.icons li a:hover {
 		.sticky-contact-btn {
 			bottom: 15px;
 			left: 15px;
+			transform: none;
 			padding: 15px;
 			font-size: 0.95em;
 			border-radius: 50%;
