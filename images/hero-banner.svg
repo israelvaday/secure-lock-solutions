@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="50%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Pattern of locks in background -->
+  <g opacity="0.1">
+    <rect x="50" y="50" width="40" height="30" rx="3" fill="url(#goldGradient)"/>
+    <path d="M58 50 V42 C58 36 82 36 82 42 V50" stroke="url(#goldGradient)" stroke-width="4" fill="none"/>
+    
+    <rect x="200" y="150" width="40" height="30" rx="3" fill="url(#goldGradient)"/>
+    <path d="M208 150 V142 C208 136 232 136 232 142 V150" stroke="url(#goldGradient)" stroke-width="4" fill="none"/>
+    
+    <rect x="1050" y="80" width="40" height="30" rx="3" fill="url(#goldGradient)"/>
+    <path d="M1058 80 V72 C1058 66 1082 66 1082 72 V80" stroke="url(#goldGradient)" stroke-width="4" fill="none"/>
+    
+    <rect x="1100" y="280" width="40" height="30" rx="3" fill="url(#goldGradient)"/>
+    <path d="M1108 280 V272 C1108 266 1132 266 1132 272 V280" stroke="url(#goldGradient)" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Large Lock Icon -->
+  <g transform="translate(100, 100)">
+    <rect x="20" y="80" width="120" height="100" rx="10" fill="url(#goldGradient)"/>
+    <path d="M40 80 V50 C40 20 120 20 120 50 V80" stroke="url(#goldGradient)" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <circle cx="80" cy="120" r="18" fill="#1a252f"/>
+    <rect x="74" y="120" width="12" height="30" fill="#1a252f"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="300" y="160" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#goldGradient)">SECURE LOCK</text>
+  <text x="300" y="240" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#goldGradient)">SOLUTIONS</text>
+  
+  <!-- Tagline -->
+  <text x="300" y="300" font-family="Arial, sans-serif" font-size="28" fill="#aaa" letter-spacing="4">24/7 PROFESSIONAL LOCKSMITH SERVICES</text>
+  
+  <!-- Phone Number -->
+  <g transform="translate(300, 330)">
+    <rect width="280" height="50" rx="25" fill="url(#goldGradient)"/>
+    <text x="140" y="34" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a252f" text-anchor="middle">(714) 341-9244</text>
+  </g>
+  
+  <!-- Orange County badge -->
+  <g transform="translate(1000, 150)">
+    <circle cx="50" cy="50" r="60" fill="url(#goldGradient)" opacity="0.2"/>
+    <circle cx="50" cy="50" r="50" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+    <text x="50" y="40" font-family="Arial, sans-serif" font-size="14" fill="url(#goldGradient)" text-anchor="middle">ORANGE</text>
+    <text x="50" y="58" font-family="Arial, sans-serif" font-size="14" fill="url(#goldGradient)" text-anchor="middle">COUNTY</text>
+    <text x="50" y="76" font-family="Arial, sans-serif" font-size="12" fill="url(#goldGradient)" text-anchor="middle">CA</text>
+  </g>
+</svg>

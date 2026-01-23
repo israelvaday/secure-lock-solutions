@@ -1,0 +1,234 @@
+/* Image Optimization Styles for Secure Lock Solutions */
+
+/* SVG icon sizing */
+.icon-svg {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-svg.small {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-svg.large {
+  width: 96px;
+  height: 96px;
+}
+
+/* Service card image optimization */
+.service-card img,
+.image.featured img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  width: 100%;
+  max-height: 350px;
+}
+
+/* Consistent image sizing across all pages */
+article .image.featured {
+  max-width: 100%;
+  margin: 1.5em 0;
+}
+
+article .image.featured img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  article .image.featured img {
+    height: 200px;
+  }
+}
+
+/* Banner SVG styling */
+.banner-svg {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Hero banner */
+.hero-banner {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+/* Logo responsive sizing */
+#logo img {
+  height: 70px;
+  width: auto;
+  transition: height 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  #logo img {
+    height: 45px;
+  }
+}
+
+/* Optimize image rendering */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* SVG smooth rendering */
+svg {
+  shape-rendering: geometricPrecision;
+}
+
+/* Featured image hover effect */
+.image.featured {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image.featured img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image.featured:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Icon grid for services */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.icon-grid .icon-item {
+  padding: 20px;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.icon-grid .icon-item:hover {
+  background: rgba(212, 175, 55, 0.2);
+}
+
+.icon-grid .icon-item img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+/* Gold accent for SVGs */
+.gold-icon {
+  filter: drop-shadow(0 2px 4px rgba(212, 175, 55, 0.3));
+}
+
+/* Loading spinner for lazy images */
+.lazy-loading {
+  position: relative;
+}
+
+.lazy-loading::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  border: 4px solid #D4AF37;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive banner */
+.responsive-banner {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .responsive-banner {
+    max-height: 200px;
+  }
+}
+
+/* Print styles - don't print heavy images */
+@media print {
+  img[src$=".jpg"],
+  img[src$=".jpeg"],
+  img[src$=".png"] {
+    max-width: 300px !important;
+  }
+}
+
+/* Index page service grid - consistent image heights */
+.col-4 section .image.featured img,
+.col-4.col-12-medium section .image.featured img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 980px) {
+  .col-4.col-12-medium section .image.featured img {
+    height: 250px;
+  }
+}
+
+/* Service areas page city images */
+.service-areas .image.featured img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Blog post thumbnails */
+.box.excerpt .image img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Gallery page styling - matches FBD */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery-item {
+    flex: 1 1 250px;
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 5px;
+}

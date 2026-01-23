@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Car silhouette -->
+  <path d="M50 180 L70 180 L90 140 L200 140 L230 180 L280 180 L280 210 L50 210 Z" fill="url(#goldGradient)"/>
+  <!-- Windows -->
+  <path d="M95 145 L100 175 L145 175 L145 145 Z" fill="#1a252f"/>
+  <path d="M150 145 L150 175 L195 175 L220 145 Z" fill="#1a252f"/>
+  <!-- Wheels -->
+  <circle cx="90" cy="210" r="25" fill="#1a252f"/>
+  <circle cx="90" cy="210" r="12" fill="url(#goldGradient)"/>
+  <circle cx="240" cy="210" r="25" fill="#1a252f"/>
+  <circle cx="240" cy="210" r="12" fill="url(#goldGradient)"/>
+  
+  <!-- Key fob -->
+  <g transform="translate(300, 90)">
+    <rect x="0" y="0" width="35" height="60" rx="8" fill="url(#goldGradient)"/>
+    <circle cx="17" cy="18" r="6" fill="#1a252f"/>
+    <circle cx="17" cy="38" r="6" fill="#1a252f"/>
+    <rect x="35" y="25" width="40" height="8" fill="url(#goldGradient)"/>
+  </g>
+  
+  <text x="400" y="120" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="url(#goldGradient)">Automotive</text>
+  <text x="400" y="170" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="url(#goldGradient)">Locksmith</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="20" fill="#aaa">Car Keys & Lockouts</text>
+</svg>

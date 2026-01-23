@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#28a745"/>
+      <stop offset="100%" style="stop-color:#20c997"/>
+    </linearGradient>
+  </defs>
+  <!-- Card reader body -->
+  <rect x="8" y="8" width="48" height="48" rx="6" fill="url(#gold)"/>
+  <!-- Screen -->
+  <rect x="14" y="14" width="36" height="20" rx="2" fill="#1a252f"/>
+  <!-- Keypad -->
+  <g fill="#1a252f">
+    <rect x="14" y="38" width="8" height="6" rx="1"/>
+    <rect x="24" y="38" width="8" height="6" rx="1"/>
+    <rect x="34" y="38" width="8" height="6" rx="1"/>
+    <rect x="14" y="46" width="8" height="6" rx="1"/>
+    <rect x="24" y="46" width="8" height="6" rx="1"/>
+    <rect x="34" y="46" width="8" height="6" rx="1"/>
+  </g>
+  <!-- Card slot -->
+  <rect x="44" y="38" width="6" height="14" rx="1" fill="url(#green)"/>
+  <!-- LED indicator -->
+  <circle cx="46" cy="20" r="3" fill="#00ff00"/>
+  <!-- Display text lines -->
+  <rect x="18" y="18" width="20" height="2" fill="url(#green)"/>
+  <rect x="18" y="24" width="16" height="2" fill="url(#green)"/>
+  <rect x="18" y="30" width="12" height="2" fill="url(#green)"/>
+</svg>

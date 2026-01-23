@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 48" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+  </defs>
+  <!-- Van body -->
+  <rect x="2" y="12" width="52" height="28" rx="4" fill="url(#gold)"/>
+  <!-- Cab -->
+  <path d="M54 20 L70 20 L76 32 L76 40 L54 40 Z" fill="url(#gold)"/>
+  <!-- Windows -->
+  <rect x="8" y="16" width="12" height="10" rx="2" fill="#1a252f"/>
+  <rect x="24" y="16" width="12" height="10" rx="2" fill="#1a252f"/>
+  <rect x="40" y="16" width="10" height="10" rx="2" fill="#1a252f"/>
+  <!-- Cab window -->
+  <path d="M58 22 L66 22 L70 30 L58 30 Z" fill="#1a252f"/>
+  <!-- Wheels -->
+  <circle cx="16" cy="40" r="7" fill="#1a252f"/>
+  <circle cx="16" cy="40" r="3" fill="url(#gold)"/>
+  <circle cx="64" cy="40" r="7" fill="#1a252f"/>
+  <circle cx="64" cy="40" r="3" fill="url(#gold)"/>
+  <!-- Lock logo on side -->
+  <rect x="28" y="30" width="8" height="6" fill="#1a252f"/>
+  <path d="M30 30 V28 C30 26 34 26 34 28 V30" stroke="#1a252f" stroke-width="2" fill="none"/>
+</svg>

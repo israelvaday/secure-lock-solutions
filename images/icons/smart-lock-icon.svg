@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b4d8"/>
+      <stop offset="100%" style="stop-color:#0077b6"/>
+    </linearGradient>
+  </defs>
+  <!-- Lock body -->
+  <rect x="14" y="28" width="36" height="32" rx="4" fill="url(#gold)"/>
+  <!-- Lock shackle -->
+  <path d="M22 28V20C22 12 42 12 42 20V28" stroke="url(#gold)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Digital display -->
+  <rect x="20" y="34" width="24" height="12" rx="2" fill="#1a252f"/>
+  <!-- WiFi icon -->
+  <path d="M32 52 C28 48 28 44 32 40" stroke="url(#blue)" stroke-width="2" fill="none"/>
+  <path d="M32 52 C36 48 36 44 32 40" stroke="url(#blue)" stroke-width="2" fill="none"/>
+  <circle cx="32" cy="52" r="2" fill="url(#blue)"/>
+  <!-- Digital dots -->
+  <circle cx="26" cy="40" r="1.5" fill="#00ff00"/>
+  <circle cx="32" cy="40" r="1.5" fill="#00ff00"/>
+  <circle cx="38" cy="40" r="1.5" fill="#00ff00"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Smart lock -->
+  <g transform="translate(80, 50)">
+    <rect x="20" y="60" width="120" height="90" rx="8" fill="url(#goldGradient)"/>
+    <path d="M45 60 V35 C45 10 115 10 115 35 V60" stroke="url(#goldGradient)" stroke-width="12" fill="none"/>
+    <!-- Screen -->
+    <rect x="40" y="75" width="80" height="35" rx="4" fill="#1a252f"/>
+    <!-- Keypad -->
+    <g fill="#1a252f">
+      <rect x="40" y="120" width="20" height="15" rx="2"/>
+      <rect x="65" y="120" width="20" height="15" rx="2"/>
+      <rect x="90" y="120" width="30" height="15" rx="2"/>
+    </g>
+    <!-- WiFi symbol -->
+    <path d="M80 95 C70 88 70 82 80 75" stroke="#00ff00" stroke-width="2" fill="none"/>
+    <path d="M80 95 C90 88 90 82 80 75" stroke="#00ff00" stroke-width="2" fill="none"/>
+    <circle cx="80" cy="95" r="3" fill="#00ff00"/>
+  </g>
+  
+  <!-- Phone connecting -->
+  <g transform="translate(220, 110)">
+    <rect x="0" y="0" width="40" height="70" rx="6" fill="url(#goldGradient)"/>
+    <rect x="5" y="8" width="30" height="50" fill="#1a252f"/>
+    <!-- Connection waves -->
+    <path d="M50 35 Q65 25 80 35" stroke="url(#goldGradient)" stroke-width="3" fill="none"/>
+    <path d="M55 35 Q65 28 75 35" stroke="url(#goldGradient)" stroke-width="3" fill="none"/>
+    <path d="M60 35 Q65 31 70 35" stroke="url(#goldGradient)" stroke-width="3" fill="none"/>
+  </g>
+  
+  <text x="350" y="120" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="url(#goldGradient)">Smart Locks</text>
+  <text x="350" y="170" font-family="Georgia, serif" font-size="36" fill="url(#goldGradient)">& Keyless Entry</text>
+  <text x="350" y="220" font-family="Arial, sans-serif" font-size="20" fill="#aaa">Modern Security Solutions</text>
+</svg>

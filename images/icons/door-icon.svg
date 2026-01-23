@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+  </defs>
+  <!-- Door frame -->
+  <rect x="8" y="4" width="48" height="56" rx="2" fill="#1a252f"/>
+  <!-- Door -->
+  <rect x="12" y="8" width="40" height="48" fill="url(#gold)"/>
+  <!-- Door panels -->
+  <rect x="16" y="12" width="14" height="16" rx="2" stroke="#1a252f" stroke-width="2" fill="none"/>
+  <rect x="34" y="12" width="14" height="16" rx="2" stroke="#1a252f" stroke-width="2" fill="none"/>
+  <rect x="16" y="32" width="14" height="20" rx="2" stroke="#1a252f" stroke-width="2" fill="none"/>
+  <rect x="34" y="32" width="14" height="20" rx="2" stroke="#1a252f" stroke-width="2" fill="none"/>
+  <!-- Door knob -->
+  <circle cx="44" cy="36" r="3" fill="#1a252f"/>
+</svg>

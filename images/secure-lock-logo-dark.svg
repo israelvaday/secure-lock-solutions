@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Lock Icon -->
+  <g transform="translate(10, 15)">
+    <!-- Lock body -->
+    <rect x="8" y="35" width="54" height="45" rx="5" fill="#1a1a1a" stroke="url(#goldGradient)" stroke-width="2"/>
+    
+    <!-- Lock shackle -->
+    <path d="M18 35 V22 C18 10 52 10 52 22 V35" fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M18 35 V22 C18 10 52 10 52 22 V35" fill="none" stroke="url(#goldGradient)" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Keyhole -->
+    <circle cx="35" cy="52" r="8" fill="url(#goldGradient)"/>
+    <rect x="32" y="52" width="6" height="15" fill="url(#goldGradient)"/>
+    
+    <!-- Key icon inside lock -->
+    <circle cx="35" cy="52" r="4" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="85" y="45" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#1a1a1a">
+    SECURE LOCK
+  </text>
+  <text x="85" y="78" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#1a1a1a">
+    SOLUTIONS
+  </text>
+  
+  <!-- Tagline -->
+  <text x="85" y="95" font-family="Arial, sans-serif" font-size="10" fill="#555" letter-spacing="2">
+    24/7 LOCKSMITH • ORANGE COUNTY, CA
+  </text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a252f"/>
+      <stop offset="100%" style="stop-color:#2c3e50"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Map of Orange County (simplified) -->
+  <g transform="translate(50, 40)">
+    <path d="M20 50 L80 20 L180 30 L230 80 L240 150 L200 200 L100 210 L30 170 L10 100 Z" 
+          fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+    <!-- Location pins -->
+    <g fill="url(#goldGradient)">
+      <circle cx="80" cy="60" r="8"/>
+      <circle cx="140" cy="80" r="8"/>
+      <circle cx="100" cy="120" r="8"/>
+      <circle cx="180" cy="100" r="8"/>
+      <circle cx="120" cy="160" r="8"/>
+      <circle cx="60" cy="140" r="8"/>
+      <circle cx="200" cy="140" r="8"/>
+    </g>
+    <!-- Pin drops -->
+    <g fill="url(#goldGradient)" opacity="0.5">
+      <path d="M80 60 L80 75"/>
+      <path d="M140 80 L140 95"/>
+      <path d="M100 120 L100 135"/>
+    </g>
+  </g>
+  
+  <text x="320" y="100" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="url(#goldGradient)">Service Areas</text>
+  <text x="320" y="150" font-family="Georgia, serif" font-size="36" fill="url(#goldGradient)">Orange County, CA</text>
+  <text x="320" y="200" font-family="Arial, sans-serif" font-size="18" fill="#aaa">Anaheim • Irvine • Santa Ana • Huntington Beach</text>
+  <text x="320" y="225" font-family="Arial, sans-serif" font-size="18" fill="#aaa">Costa Mesa • Newport Beach • Fullerton & More</text>
+</svg>
