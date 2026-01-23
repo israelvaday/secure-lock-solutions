@@ -1986,6 +1986,41 @@ ul.icons li a:hover {
     margin: 0;
 }
 
+/* Banner Buttons */
+.banner-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    clear: both;
+    padding-top: 20px;
+}
+
+.banner-phone {
+    background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%) !important;
+    color: #fff !important;
+    cursor: default;
+    user-select: text;
+}
+
+.banner-phone i {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 736px) {
+    .banner-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .banner-buttons .button.large {
+        font-size: 1.1em;
+        padding: 0.8em 1.5em;
+        width: 100%;
+        max-width: 280px;
+    }
+}
 
 
 /* Sidebar */
