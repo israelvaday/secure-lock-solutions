@@ -36,8 +36,11 @@ def main() -> int:
         launched = post(f"{BASE}/launch?key={KEY}")
         print("Launch:", launched)
     except HTTPError as e:
-        print("Launch failed:", e.read().decode(), file=sys.stderr)
-        return 1
+        body = e.read().decode()
+        if "already auditing" not in body:
+            print("Launch failed:", body, file=sys.stderr)
+            return 1
+        print("Audit already running, polling...")
 
     for i in range(120):
         info = get(f"{BASE}/info?key={KEY}")

@@ -1,0 +1,912 @@
+{
+  "id": 30305811,
+  "name": "securelocksmithsolution.com",
+  "url": "securelocksmithsolution.com",
+  "projectDomain": "securelocksmithsolution.com",
+  "status": "FINISHED",
+  "scheme": "https",
+  "errors": 0,
+  "warnings": 298,
+  "notices": 25,
+  "broken": 0,
+  "brokenDelta": -2,
+  "blocked": 0,
+  "blockedDelta": 0,
+  "redirected": 1,
+  "redirectedDelta": 0,
+  "healthy": 2,
+  "healthyDelta": 2,
+  "haveIssues": 66,
+  "haveIssuesDelta": 2,
+  "excludedBetaChecks": [],
+  "defects": {
+    "112": 14,
+    "117": 28,
+    "213": 16,
+    "135": 256,
+    "217": 6,
+    "219": 1,
+    "205": 2
+  },
+  "markups": {
+    "twitterCard": 64,
+    "schemaOrg": 0,
+    "noMarkups": 0,
+    "hasMarkups": 65,
+    "openGraph": 64,
+    "schemaOrgJsonld": 65,
+    "microfomats": 0
+  },
+  "structuredData": {
+    "groupByPages": {
+      "noItems": 22,
+      "valid": 43,
+      "invalid": 0
+    },
+    "groupByItems": {
+      "valid": 43,
+      "invalid": 0
+    },
+    "items": [
+      {
+        "type": "LOCAL_BUSINESS",
+        "valid": 43,
+        "invalid": 0
+      }
+    ]
+  },
+  "depths": {
+    "0": 5,
+    "1": 46,
+    "2": 18
+  },
+  "crawlSubdomains": true,
+  "respectCrawlDelay": false,
+  "internalIncomingLinksGroups": {
+    "1": 16,
+    "2": 28,
+    "6": 4,
+    "7": 8,
+    "8": 9
+  },
+  "internalIncomingLinksGroupsList": [
+    {
+      "id": 0,
+      "leftBorder": 0,
+      "rightBorder": 0,
+      "count": 0
+    },
+    {
+      "id": 1,
+      "leftBorder": 1,
+      "rightBorder": 1,
+      "count": 16
+    },
+    {
+      "id": 2,
+      "leftBorder": 2,
+      "rightBorder": 5,
+      "count": 28
+    },
+    {
+      "id": 6,
+      "leftBorder": 6,
+      "rightBorder": 15,
+      "count": 4
+    },
+    {
+      "id": 7,
+      "leftBorder": 16,
+      "rightBorder": 50,
+      "count": 8
+    },
+    {
+      "id": 8,
+      "leftBorder": 51,
+      "rightBorder": 150,
+      "count": 9
+    },
+    {
+      "id": 9,
+      "leftBorder": 151,
+      "rightBorder": 500,
+      "count": 0
+    },
+    {
+      "id": 10,
+      "leftBorder": 501,
+      "rightBorder": 2147483647,
+      "count": 0
+    }
+  ],
+  "canonical": 65,
+  "withAmp": 0,
+  "scheduleDay": 1,
+  "crawlability": {
+    "budget": {
+      "total": 2,
+      "stats": {
+        "nonCanonicalPages": 1,
+        "permanentRedirects": 1,
+        "redirectChainsAndLoops": 0,
+        "temporaryRedirects": 0,
+        "contentDuplicates": 0,
+        "tooLargePages": 0,
+        "tooSlowPages": 0,
+        "botBlocked": 0,
+        "code4xx": 0,
+        "code5xx": 0
+      }
+    }
+  },
+  "crawlSourceType": 0,
+  "gaStatus": "NOT_CONNECTED",
+  "gaSettings": null,
+  "productGroup": "PRO",
+  "crawlDelaySettingTypeId": 1,
+  "ignoreRobotsDisallow": false,
+  "campaignsCount": 3,
+  "projectsCount": 3,
+  "jsRendering": "DISABLED",
+  "jsImpactReportDataAvailable": false,
+  "platform": "OTHER",
+  "webBotAuthEnabled": false,
+  "webBotAuthSignatureAgent": null,
+  "webBotAuthSignatureInput": null,
+  "notify": true,
+  "authEnabled": false,
+  "user_agent_type": 8,
+  "last_audit": 1783312362164,
+  "last_failed_audit": 0,
+  "next_audit": 1783917190519,
+  "running_pages_crawled": 0,
+  "running_pages_limit": 0,
+  "pages_crawled": 69,
+  "pages_crawled_delta": 2,
+  "pages_limit": 200,
+  "total_checks": 29965,
+  "errors_delta": -2,
+  "warnings_delta": -5,
+  "notices_delta": -3,
+  "mask_allow": [],
+  "mask_disallow": [],
+  "removedParameters": [],
+  "excluded_checks": [],
+  "current_snapshot": {
+    "isPagesLimitReached": false,
+    "aiSearchScore": {
+      "value": 89,
+      "delta": 2
+    },
+    "thematicScores": {
+      "https": {
+        "value": 98,
+        "delta": 0
+      },
+      "intSeo": {
+        "value": 100,
+        "delta": 0
+      },
+      "crawlability": {
+        "value": 100,
+        "delta": 3
+      },
+      "performance": {
+        "value": 95,
+        "delta": 0
+      },
+      "linking": {
+        "value": 96,
+        "delta": 2
+      },
+      "markups": {
+        "value": 100,
+        "delta": 34
+      }
+    },
+    "errors": [
+      {
+        "id": 1,
+        "count": 0,
+        "delta": 0,
+        "checks": 68
+      },
+      {
+        "id": 2,
+        "count": 0,
+        "delta": -1,
+        "checks": 68
+      },
+      {
+        "id": 3,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 6,
+        "count": 0,
+        "delta": 0,
+        "checks": 4160
+      },
+      {
+        "id": 7,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 8,
+        "count": 0,
+        "delta": 0,
+        "checks": 887
+      },
+      {
+        "id": 9,
+        "count": 0,
+        "delta": 0,
+        "checks": 68
+      },
+      {
+        "id": 10,
+        "count": 0,
+        "delta": 0,
+        "checks": 68
+      },
+      {
+        "id": 11,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 13,
+        "count": 0,
+        "delta": 0,
+        "checks": 350
+      },
+      {
+        "id": 15,
+        "count": 0,
+        "delta": 0,
+        "checks": 4160
+      },
+      {
+        "id": 16,
+        "count": 0,
+        "delta": 0,
+        "checks": 1
+      },
+      {
+        "id": 17,
+        "count": 0,
+        "delta": 0,
+        "checks": 1
+      },
+      {
+        "id": 18,
+        "count": 0,
+        "delta": 0,
+        "checks": 64
+      },
+      {
+        "id": 19,
+        "count": 0,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 20,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 21,
+        "count": 0,
+        "delta": 0,
+        "checks": 66
+      },
+      {
+        "id": 22,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 23,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 24,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 25,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 26,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 27,
+        "count": 0,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 28,
+        "count": 0,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 29,
+        "count": 0,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 30,
+        "count": 0,
+        "delta": 0,
+        "checks": 1055
+      },
+      {
+        "id": 32,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 33,
+        "count": 0,
+        "delta": 0,
+        "checks": 1766
+      },
+      {
+        "id": 38,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 39,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 40,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 41,
+        "count": 0,
+        "delta": 0,
+        "checks": 512
+      },
+      {
+        "id": 42,
+        "count": 0,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 43,
+        "count": 0,
+        "delta": 0,
+        "checks": 1
+      },
+      {
+        "id": 44,
+        "count": 0,
+        "delta": 0,
+        "checks": 1229
+      },
+      {
+        "id": 45,
+        "count": 0,
+        "delta": -1,
+        "checks": 43
+      },
+      {
+        "id": 46,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 111,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      }
+    ],
+    "warnings": [
+      {
+        "id": 12,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 14,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 31,
+        "count": 0,
+        "delta": 0,
+        "checks": 886
+      },
+      {
+        "id": 101,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 102,
+        "count": 0,
+        "delta": -17,
+        "checks": 65
+      },
+      {
+        "id": 103,
+        "count": 0,
+        "delta": -1,
+        "checks": 65
+      },
+      {
+        "id": 105,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 106,
+        "count": 0,
+        "delta": -1,
+        "checks": 65
+      },
+      {
+        "id": 108,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 109,
+        "count": 0,
+        "delta": 0,
+        "checks": 1766
+      },
+      {
+        "id": 110,
+        "count": 0,
+        "delta": 0,
+        "checks": 175
+      },
+      {
+        "id": 112,
+        "count": 14,
+        "delta": 5,
+        "checks": 65
+      },
+      {
+        "id": 113,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 114,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 115,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 116,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 117,
+        "count": 28,
+        "delta": 2,
+        "checks": 65
+      },
+      {
+        "id": 120,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 121,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 122,
+        "count": 0,
+        "delta": -1,
+        "checks": 65
+      },
+      {
+        "id": 123,
+        "count": 0,
+        "delta": 0,
+        "checks": 886
+      },
+      {
+        "id": 124,
+        "count": 0,
+        "delta": 0,
+        "checks": 1
+      },
+      {
+        "id": 125,
+        "count": 0,
+        "delta": 0,
+        "checks": 1
+      },
+      {
+        "id": 126,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 127,
+        "count": 0,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 128,
+        "count": 0,
+        "delta": 0,
+        "checks": 64
+      },
+      {
+        "id": 129,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 130,
+        "count": 0,
+        "delta": 0,
+        "checks": 687
+      },
+      {
+        "id": 131,
+        "count": 0,
+        "delta": 0,
+        "checks": 704
+      },
+      {
+        "id": 132,
+        "count": 0,
+        "delta": 0,
+        "checks": 704
+      },
+      {
+        "id": 133,
+        "count": 0,
+        "delta": 0,
+        "checks": 66
+      },
+      {
+        "id": 134,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 135,
+        "count": 256,
+        "delta": 8,
+        "checks": 704
+      },
+      {
+        "id": 136,
+        "count": 0,
+        "delta": 0,
+        "checks": 1229
+      }
+    ],
+    "notices": [
+      {
+        "id": 104,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 137,
+        "count": 0,
+        "delta": -1,
+        "checks": 1
+      },
+      {
+        "id": 4,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 201,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 202,
+        "count": 0,
+        "delta": 0,
+        "checks": 13
+      },
+      {
+        "id": 203,
+        "count": 0,
+        "delta": -1,
+        "checks": 1
+      },
+      {
+        "id": 204,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 205,
+        "count": 2,
+        "delta": 0,
+        "checks": 2
+      },
+      {
+        "id": 206,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 207,
+        "count": 0,
+        "delta": -3,
+        "checks": 64
+      },
+      {
+        "id": 208,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 209,
+        "count": 0,
+        "delta": 0,
+        "checks": 0
+      },
+      {
+        "id": 210,
+        "count": 0,
+        "delta": 0,
+        "checks": 192
+      },
+      {
+        "id": 211,
+        "count": 0,
+        "delta": 0,
+        "checks": 192
+      },
+      {
+        "id": 212,
+        "count": 0,
+        "delta": 0,
+        "checks": 66
+      },
+      {
+        "id": 213,
+        "count": 16,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 214,
+        "count": 0,
+        "delta": 0,
+        "checks": 1766
+      },
+      {
+        "id": 215,
+        "count": 0,
+        "delta": 0,
+        "checks": 899
+      },
+      {
+        "id": 216,
+        "count": 0,
+        "delta": 0,
+        "checks": 1022
+      },
+      {
+        "id": 217,
+        "count": 6,
+        "delta": 1,
+        "checks": 1022
+      },
+      {
+        "id": 218,
+        "count": 0,
+        "delta": 0,
+        "checks": 192
+      },
+      {
+        "id": 219,
+        "count": 1,
+        "delta": 1,
+        "checks": 1
+      },
+      {
+        "id": 220,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 221,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 222,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      },
+      {
+        "id": 223,
+        "count": 0,
+        "delta": 0,
+        "checks": 65
+      }
+    ],
+    "topIssues": [
+      117,
+      135,
+      112,
+      205,
+      213
+    ],
+    "topInsights": [
+      117,
+      135,
+      112,
+      219,
+      217
+    ],
+    "hidden": {},
+    "fixed": {
+      "45": 1,
+      "122": 1,
+      "112": 9,
+      "2": 1,
+      "135": 0,
+      "102": 17,
+      "213": 0,
+      "103": 1,
+      "203": 1,
+      "137": 1,
+      "117": 26,
+      "205": 0,
+      "106": 1,
+      "217": 5,
+      "207": 3
+    },
+    "statusCodeGroups": {
+      "2": 68,
+      "3": 1
+    },
+    "excludedChecks": [],
+    "settingsChanged": false,
+    "jsRendering": "DISABLED",
+    "blockedPageStats": {
+      "aiSearch": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0
+      }
+    },
+    "snapshot_id": "6a4b2eedb8060ebdf579f703",
+    "snapshot_version": 15,
+    "pages_crawled": 69,
+    "pages_limit": 200,
+    "finish_date": 1783312362164,
+    "quality": {
+      "value": 96,
+      "delta": 11
+    },
+    "user_agent_type": 8,
+    "new": {
+      "45": 1,
+      "122": 1,
+      "2": 1,
+      "112": 23,
+      "102": 17,
+      "135": 256,
+      "103": 1,
+      "213": 16,
+      "137": 1,
+      "203": 1,
+      "106": 1,
+      "205": 2,
+      "117": 54,
+      "217": 11,
+      "207": 3,
+      "219": 1
+    }
+  },
+  "is_notify": true,
+  "ampTotal": 0,
+  "hreflangs": {
+    "totalPages": 0,
+    "badPages": 0,
+    "missing": 0
+  },
+  "xdefault": 0,
+  "sitemaps": {
+    "crawledPages": 64,
+    "totalPages": 64,
+    "count": 1,
+    "reprUrl": "https://securelocksmithsolution.com/sitemap.xml",
+    "status": "HAVE_HEALTHY"
+  },
+  "canonicalization": {
+    "emptyOrWithoutCanonicalLink": 4,
+    "selfCanonical": 64,
+    "canonicalToOtherPage": 1
+  },
+  "uploadUrlsCount": 0,
+  "crawlSourceUrl": "",
+  "precrawlError": null,
+  "is_allowed_stopping": false,
+  "robots": {
+    "status": 1,
+    "link": "https://securelocksmithsolution.com/robots.txt",
+    "errors": 0,
+    "changes": 11
+  },
+  "data_will_be_removed": 0
+}
