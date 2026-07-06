@@ -1,0 +1,130 @@
+﻿snapshot 6a4b1b029339d506d9b04bda
+errors 2 warnings 303 notices 28
+META ISSUES count 98
+1 5xx errors count= None
+2 4xx errors count= None
+3 Title tag is missing or empty count= None
+6 Duplicate title tag count= None
+7 Duplicate content count= None
+8 Broken internal links count= None
+9 Pages not crawled count= None
+10 DNS resolution issue count= None
+11 We couldn't open the page?s URL count= None
+12 Broken external links count= None
+13 Broken internal images count= None
+14 Broken external images count= None
+15 Duplicate meta descriptions count= None
+16 Invalid robots.txt format count= None
+17 Invalid sitemap.xml format count= None
+18 Incorrect pages found in sitemap.xml count= None
+19 www resolve issues count= None
+20 Viewport not configured count= None
+21 Large HTML page size count= None
+22 Missing canonical tags in AMP pages count= None
+23 Issues with hreflang values count= None
+24 Hreflang conflicts within page source code count= None
+25 Issues with incorrect hreflang links count= None
+26 Non-secure pages count= None
+27 Certificate Expiration count= None
+28 Old security protocol version count= None
+29 Certificate registered to incorrect name count= None
+30 Issues with mixed content count= None
+31 Links lead to HTTP pages for HTTPS site count= None
+32 Neither canonical URL nor 301 redirect from HTTP homepage count= None
+33 Redirect chains and loops count= None
+38 Broken canonical URLs count= None
+39 Multiple canonical URLs count= None
+40 Meta refresh redirects count= None
+41 Broken internal JavaScript and CSS files count= None
+42 Insecure encryption algorithms count= None
+43 Sitemap file too large count= None
+44 Malformed links count= None
+45 Structured data that contains markup errors count= None
+46 Viewport width not set count= None
+
+=== Issue 2 (1) ===
+  https://securelocksmithsolution.com/robots.txt 404
+
+=== Issue 45 (1) ===
+  https://securelocksmithsolution.com/serv_form.html {'item': 'LOCAL_BUSINESS', 'fields': [{'cause': 'REQUIRED', 'names': ['address'], 'nestedRel': None}]}
+
+=== Issue 103 (1) ===
+  https://securelocksmithsolution.com/serv_form.html 
+
+=== Issue 106 (1) ===
+  https://securelocksmithsolution.com/serv_form.html 
+
+=== Issue 137 (1) ===
+  https://securelocksmithsolution.com/llms.txt {'code': 404}
+
+=== Issue 203 (1) ===
+  https://securelocksmithsolution.com/robots.txt 404
+
+=== Issue 205 (2) ===
+  https://www.securelocksmithsolution.com/ 
+  https://securelocksmithsolution.com/ 
+
+=== Issue 207 (3) ===
+  https://securelocksmithsolution.com/sitemap.xml 
+  https://securelocksmithsolution.com/sitemap.xml 
+  https://securelocksmithsolution.com/sitemap.xml 
+
+=== Issue 102 (17) ===
+  https://securelocksmithsolution.com/smart-locks.html Smart Lock Installation | Keyless Entry | Secure Lock Solutions Orange County
+  https://securelocksmithsolution.com/san-juan-capistrano.html Locksmith in San Juan Capistrano CA | 24/7 Emergency Service | Secure Lock Solutions
+  https://securelocksmithsolution.com/rancho-santa-margarita.html Locksmith in Rancho Santa Margarita CA | 24/7 Emergency Service | Secure Lock Solutions
+  https://securelocksmithsolution.com/north-tustin.html Locksmith in North Tustin CA | 24/7 Emergency Service | Secure Lock Solutions
+  https://securelocksmithsolution.com/newport-beach.html Locksmith in Newport Beach CA | 24/7 Emergency Service | Secure Lock Solutions
+  https://securelocksmithsolution.com/midway-city.html Locksmith in Midway City CA | 24/7 Emergency Service | Secure Lock Solutions
+  https://securelocksmithsolution.com/los-alamitos.html Locksmith in Los Alamitos CA | 24/7 Emergency Service | Secure Lock Solutions
+  https://securelocksmithsolution.com/laguna-woods.html Locksmith in Laguna Woods CA | 24/7 Emergency Service | Secure Lock Solutions
+
+=== Issue 112 (9) ===
+  https://securelocksmithsolution.com/westminster.html 0.09
+  https://securelocksmithsolution.com/service-areas.html 0.09
+  https://securelocksmithsolution.com/serv_form.html 0.04
+  https://securelocksmithsolution.com/placentia.html 0.08
+  https://securelocksmithsolution.com/la-habra.html 0.08
+  https://securelocksmithsolution.com/index.html 0.08
+  https://securelocksmithsolution.com/buena-park.html 0.09
+  https://securelocksmithsolution.com/aliso-viejo.html 0.09
+
+=== Issue 117 (26) ===
+  https://securelocksmithsolution.com/yorba-linda.html 127
+  https://securelocksmithsolution.com/westminster.html 95
+  https://securelocksmithsolution.com/tustin.html 142
+  https://securelocksmithsolution.com/stanton.html 187
+  https://securelocksmithsolution.com/service-areas.html 173
+  https://securelocksmithsolution.com/serv_form.html 136
+  https://securelocksmithsolution.com/san-clemente.html 117
+  https://securelocksmithsolution.com/rossmoor.html 176
+
+=== Issue 213 (16) ===
+  https://securelocksmithsolution.com/villa-park.html 
+  https://securelocksmithsolution.com/stanton.html 
+  https://securelocksmithsolution.com/seal-beach.html 
+  https://securelocksmithsolution.com/san-juan-capistrano.html 
+  https://securelocksmithsolution.com/rossmoor.html 
+  https://securelocksmithsolution.com/rancho-santa-margarita.html 
+  https://securelocksmithsolution.com/north-tustin.html 
+  https://securelocksmithsolution.com/midway-city.html 
+
+=== Issue 217 (5) ===
+  https://securelocksmithsolution.com/service-areas.html Learn More
+  https://securelocksmithsolution.com/residential.html Learn More
+  https://securelocksmithsolution.com/index.html Learn more
+  https://securelocksmithsolution.com/commercial.html Learn More
+  https://securelocksmithsolution.com/ Learn more
+
+=== Issue 122 (1) ===
+  https://securelocksmithsolution.com/serv_form.html 
+
+=== Issue 135 (248) ===
+  https://securelocksmithsolution.com/yorba-linda.html {'resourceType': 'css'}
+  https://securelocksmithsolution.com/yorba-linda.html {'resourceType': 'css'}
+  https://securelocksmithsolution.com/yorba-linda.html {'resourceType': 'javascript'}
+  https://securelocksmithsolution.com/yorba-linda.html {'resourceType': 'javascript'}
+  https://securelocksmithsolution.com/westminster.html {'resourceType': 'javascript'}
+  https://securelocksmithsolution.com/westminster.html {'resourceType': 'javascript'}
+  https://securelocksmithsolution.com/westminster.html {'resourceType': 'css'}
+  https://securelocksmithsolution.com/westminster.html {'resourceType': 'css'}

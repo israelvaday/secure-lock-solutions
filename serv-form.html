@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request Locksmith Service | Secure Lock Solutions Orange County</title>
+  <meta name="description" content="Request locksmith service from Secure Lock Solutions. Emergency lockouts, lock changes, car keys, and security solutions in Orange County CA. Open Sun 12AM - Fri 1PM." />
+  <meta name="keywords" content="request locksmith, locksmith appointment, locksmith service Orange County, contact locksmith, book locksmith, emergency locksmith" />
+  <link rel="canonical" href="https://securelocksmithsolution.com/serv-form.html" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzKaIbYBT2fG6I15vpJ5g6mOnoZL1b1fs&libraries=places&language=en&callback=initAutocomplete"
+    async
+    defer
+    loading="lazy">
+  </script>
+  
+  <!-- Schema.org markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Request Locksmith Service",
+    "description": "Contact form for Secure Lock Solutions locksmith services in Orange County CA",
+    "url": "https://securelocksmithsolution.com/serv-form.html",
+    "mainEntity": {
+      "@type": "Locksmith",
+      "@id": "https://securelocksmithsolution.com/#business",
+      "name": "Secure Lock Solutions",
+      "url": "https://securelocksmithsolution.com",
+      "telephone": "+1-714-341-9244",
+      "email": "securelocksmithsolution@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1100 Synergy",
+        "addressLocality": "Irvine",
+        "addressRegion": "CA",
+        "postalCode": "92614",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Orange County, CA"
+      }
+    }
+  }
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%);
+      padding: 20px;
+    }
+
+    #form-wrapper {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      max-width: 700px;
+      margin: 20px auto;
+    }
+
+    @media (max-width: 768px) {
+      #form-wrapper {
+        padding: 20px 15px;
+        border-radius: 15px;
+      }
+    }
+
+    /* Logo */
+    #logo {
+      display: block;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #logo img {
+      height: 60px;
+      max-width: 100%;
+    }
+    @media only screen and (max-width: 768px) {
+      #logo img { height: 40px; }
+    }
+
+    /* Phone Banner */
+    .phone-banner {
+      background: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+    }
+    .phone-banner a {
+      color: #1a252f;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .phone-banner a i {
+      animation: shake 1.5s ease-in-out infinite;
+    }
+    @keyframes shake {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(-10deg); }
+      50% { transform: rotate(10deg); }
+      75% { transform: rotate(-5deg); }
+    }
+    .phone-banner small {
+      display: block;
+      color: #1a252f;
+      font-size: 0.85em;
+      margin-top: 5px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #1a252f;
+      font-size: 1.5em;
+    }
+    h2 i {
+      color: #D4AF37;
+    }
+
+    /* Step Indicator */
+    .step-indicator {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+    .step {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #e0e0e0;
+      color: #888;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 0.9em;
+      transition: all 0.3s ease;
+    }
+    .step.active {
+      background: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+      color: #1a252f;
+      transform: scale(1.1);
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+    }
+    .step.completed {
+      background: #28a745;
+      color: white;
+    }
+
+    /* Form Steps */
+    .form-step {
+      display: none;
+    }
+    .form-step.active {
+      display: block;
+      animation: fadeIn 0.4s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Service Category Boxes */
+    .category-label {
+      font-weight: bold;
+      color: #1a252f;
+      margin-bottom: 15px;
+      font-size: 1.1em;
+      text-align: center;
+    }
+
+    .service-categories {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 500px) {
+      .service-categories {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .service-box {
+      background: #f8f9fa;
+      border: 3px solid #e0e0e0;
+      border-radius: 15px;
+      padding: 20px 10px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-box:hover {
+      border-color: #D4AF37;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.25);
+    }
+
+    .service-box.selected {
+      border-color: #D4AF37;
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(255, 215, 0, 0.15) 100%);
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+    }
+
+    .service-box.selected::after {
+      content: '✓';
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: #D4AF37;
+      color: #1a252f;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .service-box i {
+      font-size: 2em;
+      color: #D4AF37;
+      margin-bottom: 10px;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .service-box:hover i {
+      transform: scale(1.15);
+    }
+
+    .service-box span {
+      font-weight: 600;
+      color: #1a252f;
+      font-size: 0.85em;
+      display: block;
+    }
+
+    /* Sub-service Options */
+    .sub-services {
+      display: none;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 2px dashed #e0e0e0;
+    }
+
+    .sub-services.active {
+      display: block;
+      animation: slideDown 0.4s ease;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; max-height: 0; }
+      to { opacity: 1; max-height: 500px; }
+    }
+
+    .sub-service-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    @media (max-width: 500px) {
+      .sub-service-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .sub-service-btn {
+      background: white;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 12px 15px;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9em;
+    }
+
+    .sub-service-btn:hover {
+      border-color: #D4AF37;
+      background: #fffef5;
+    }
+
+    .sub-service-btn.selected {
+      border-color: #D4AF37;
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(255, 215, 0, 0.1) 100%);
+    }
+
+    .sub-service-btn i {
+      color: #D4AF37;
+      font-size: 1.1em;
+      width: 25px;
+    }
+
+    /* Form Fields */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      color: #1a252f;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .form-group label i {
+      color: #D4AF37;
+    }
+
+    .form-control {
+      width: 100%;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 14px 16px;
+      font-size: 1em;
+      transition: all 0.3s ease;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: #D4AF37;
+      box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.15);
+    }
+
+    .form-control::placeholder {
+      color: #aaa;
+    }
+
+    textarea.form-control {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    /* Selected Service Display */
+    .selected-service-display {
+      background: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .selected-service-display span {
+      color: #1a252f;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .selected-service-display small {
+      display: block;
+      color: #1a252f;
+      opacity: 0.8;
+      font-size: 0.85em;
+      margin-top: 5px;
+    }
+
+    /* Navigation Buttons */
+    .form-navigation {
+      display: flex;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn-back {
+      background: #f0f0f0;
+      color: #666;
+    }
+
+    .btn-back:hover {
+      background: #e0e0e0;
+    }
+
+    .btn-next, .btn-submit {
+      background: linear-gradient(135deg, #D4AF37 0%, #FFD700 100%);
+      color: #1a252f;
+      flex: 2;
+    }
+
+    .btn-next:hover, .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none !important;
+    }
+
+    /* Back Link */
+    .back-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .back-link a {
+      color: #D4AF37;
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .back-link a:hover {
+      color: #b8972f;
+    }
+
+    /* License Badge */
+    .license-badge {
+      text-align: center;
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid #eee;
+    }
+
+    .license-badge p {
+      font-size: 0.8em;
+      color: #888;
+    }
+
+    .license-badge i {
+      color: #D4AF37;
+    }
+  </style>
+</head>
+<body>
+  <div id="form-wrapper">
+    <a href="index.html" id="logo">
+      <picture>
+        <source media="(max-width: 768px)" srcset="images/secure-lock-logo-mobile.svg">
+        <img src="images/secure-lock-logo.svg" alt="Secure Lock Solutions Logo">
+      </picture>
+    </a>
+
+    <div class="phone-banner">
+      <a href="tel:+17143419244">
+        <i class="fas fa-phone-alt"></i> (714) 341-9244
+      </a>
+      <small>Mon–Thu: Open 24 hrs | Fri: 12AM–1PM | Sat: Closed | Sun: Open 24 hrs</small>
+    </div>
+
+    <h1><i class="fas fa-calendar-check"></i> Request Locksmith Service</h1>
+    <h2><i class="fas fa-calendar-check"></i> Book Your Appointment</h2>
+
+    <!-- Step Indicator -->
+    <div class="step-indicator">
+      <div class="step active" data-step="1">1</div>
+      <div class="step" data-step="2">2</div>
+      <div class="step" data-step="3">3</div>
+    </div>
+
+    <form id="myForm">
+      <input type="hidden" name="NEW JOB" value="FROM Secure Lock Solutions 🔐: New Appointment Request">
+      <input type="hidden" name="TIME SUBMITTED" id="timestamp" value="">
+      <input type="hidden" name="service" id="service" value="">
+      <input type="hidden" name="category" id="category" value="">
+
+      <!-- STEP 1: Select Service Category -->
+      <div class="form-step active" data-step="1">
+        <p class="category-label">What do you need help with?</p>
+        
+        <div class="service-categories">
+          <div class="service-box" data-category="residential">
+            <i class="fas fa-home"></i>
+            <span>Residential</span>
+          </div>
+          <div class="service-box" data-category="commercial">
+            <i class="fas fa-building"></i>
+            <span>Commercial</span>
+          </div>
+          <div class="service-box" data-category="automotive">
+            <i class="fas fa-car"></i>
+            <span>Automotive</span>
+          </div>
+          <div class="service-box" data-category="emergency">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>Emergency</span>
+          </div>
+          <div class="service-box" data-category="safes">
+            <i class="fas fa-shield-alt"></i>
+            <span>Safes</span>
+          </div>
+          <div class="service-box" data-category="other">
+            <i class="fas fa-ellipsis-h"></i>
+            <span>Other</span>
+          </div>
+        </div>
+
+        <!-- Sub-services for each category -->
+        <div class="sub-services" data-for="residential">
+          <p class="category-label">Select a service:</p>
+          <div class="sub-service-grid">
+            <button type="button" class="sub-service-btn" data-service="Home Lockout"><i class="fas fa-door-open"></i> Home Lockout</button>
+            <button type="button" class="sub-service-btn" data-service="Lock Change/Replacement"><i class="fas fa-exchange-alt"></i> Lock Change</button>
+            <button type="button" class="sub-service-btn" data-service="Lock Rekeying"><i class="fas fa-key"></i> Lock Rekeying</button>
+            <button type="button" class="sub-service-btn" data-service="Smart Lock Installation"><i class="fas fa-wifi"></i> Smart Lock</button>
+            <button type="button" class="sub-service-btn" data-service="Key Duplication"><i class="fas fa-copy"></i> Key Duplication</button>
+            <button type="button" class="sub-service-btn" data-service="Deadbolt Installation"><i class="fas fa-lock"></i> Deadbolt Install</button>
+            <button type="button" class="sub-service-btn" data-service="Other Residential"><i class="fas fa-home"></i> Other Residential</button>
+          </div>
+        </div>
+
+        <div class="sub-services" data-for="commercial">
+          <p class="category-label">Select a service:</p>
+          <div class="sub-service-grid">
+            <button type="button" class="sub-service-btn" data-service="Business Lockout"><i class="fas fa-store"></i> Business Lockout</button>
+            <button type="button" class="sub-service-btn" data-service="Master Key System"><i class="fas fa-layer-group"></i> Master Key System</button>
+            <button type="button" class="sub-service-btn" data-service="Access Control"><i class="fas fa-fingerprint"></i> Access Control</button>
+            <button type="button" class="sub-service-btn" data-service="High Security Locks"><i class="fas fa-shield-alt"></i> High Security Locks</button>
+            <button type="button" class="sub-service-btn" data-service="Panic Bar Installation"><i class="fas fa-sign-out-alt"></i> Panic Bar Install</button>
+            <button type="button" class="sub-service-btn" data-service="Keypad/Card Reader"><i class="fas fa-keyboard"></i> Keypad/Card Reader</button>
+            <button type="button" class="sub-service-btn" data-service="Other Commercial"><i class="fas fa-building"></i> Other Commercial</button>
+          </div>
+        </div>
+
+        <div class="sub-services" data-for="automotive">
+          <p class="category-label">Select a service:</p>
+          <div class="sub-service-grid">
+            <button type="button" class="sub-service-btn" data-service="Car Lockout"><i class="fas fa-car-side"></i> Car Lockout</button>
+            <button type="button" class="sub-service-btn" data-service="Car Key Replacement"><i class="fas fa-key"></i> Key Replacement</button>
+            <button type="button" class="sub-service-btn" data-service="Transponder Key Programming"><i class="fas fa-microchip"></i> Transponder Key</button>
+            <button type="button" class="sub-service-btn" data-service="Key Fob Replacement"><i class="fas fa-satellite-dish"></i> Key Fob</button>
+            <button type="button" class="sub-service-btn" data-service="Ignition Repair"><i class="fas fa-cogs"></i> Ignition Repair</button>
+            <button type="button" class="sub-service-btn" data-service="Broken Key Extraction"><i class="fas fa-tools"></i> Broken Key</button>
+            <button type="button" class="sub-service-btn" data-service="Other Automotive"><i class="fas fa-car"></i> Other Automotive</button>
+          </div>
+        </div>
+
+        <div class="sub-services" data-for="emergency">
+          <p class="category-label">Select a service:</p>
+          <div class="sub-service-grid">
+            <button type="button" class="sub-service-btn" data-service="Emergency Lockout"><i class="fas fa-door-closed"></i> Emergency Lockout</button>
+            <button type="button" class="sub-service-btn" data-service="Break-in Repair"><i class="fas fa-hammer"></i> Break-in Repair</button>
+            <button type="button" class="sub-service-btn" data-service="Lock Damage Repair"><i class="fas fa-wrench"></i> Lock Damage Repair</button>
+            <button type="button" class="sub-service-btn" data-service="Urgent Rekey"><i class="fas fa-bolt"></i> Urgent Rekey</button>
+            <button type="button" class="sub-service-btn" data-service="Other Emergency"><i class="fas fa-exclamation-circle"></i> Other Emergency</button>
+          </div>
+        </div>
+
+        <div class="sub-services" data-for="safes">
+          <p class="category-label">Select a service:</p>
+          <div class="sub-service-grid">
+            <button type="button" class="sub-service-btn" data-service="Safe Opening"><i class="fas fa-unlock"></i> Safe Opening</button>
+            <button type="button" class="sub-service-btn" data-service="Safe Installation"><i class="fas fa-box"></i> Safe Installation</button>
+            <button type="button" class="sub-service-btn" data-service="Safe Combination Change"><i class="fas fa-sync-alt"></i> Combination Change</button>
+            <button type="button" class="sub-service-btn" data-service="Safe Repair"><i class="fas fa-toolbox"></i> Safe Repair</button>
+            <button type="button" class="sub-service-btn" data-service="Other Safe Service"><i class="fas fa-shield-alt"></i> Other Safe Service</button>
+          </div>
+        </div>
+
+        <div class="sub-services" data-for="other">
+          <p class="category-label">Select a service:</p>
+          <div class="sub-service-grid">
+            <button type="button" class="sub-service-btn" data-service="General Inquiry"><i class="fas fa-question-circle"></i> General Inquiry</button>
+            <button type="button" class="sub-service-btn" data-service="Appointment Request"><i class="fas fa-calendar-alt"></i> Appointment Request</button>
+            <button type="button" class="sub-service-btn" data-service="Security Consultation"><i class="fas fa-user-shield"></i> Security Consultation</button>
+            <button type="button" class="sub-service-btn" data-service="Other Service"><i class="fas fa-ellipsis-h"></i> Other Service</button>
+          </div>
+        </div>
+
+        <div class="form-navigation">
+          <button type="button" class="btn btn-next" id="step1Next" disabled>
+            Continue <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Contact Info -->
+      <div class="form-step" data-step="2">
+        <div class="selected-service-display">
+          <span id="displayService">Service Selected</span>
+          <small>Click "Back" to change</small>
+        </div>
+
+        <div class="form-group">
+          <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+          <input type="tel" class="form-control" id="phone" name="phone"
+            placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="zip"><i class="fas fa-map-marker-alt"></i> Zipcode</label>
+          <input type="text" class="form-control" id="zip" name="zip" maxlength="5"
+            placeholder="Enter your Orange County zipcode" required>
+        </div>
+
+        <div class="form-navigation">
+          <button type="button" class="btn btn-back" id="step2Back">
+            <i class="fas fa-arrow-left"></i> Back
+          </button>
+          <button type="button" class="btn btn-next" id="step2Next">
+            Continue <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Additional Details -->
+      <div class="form-step" data-step="3">
+        <div class="selected-service-display">
+          <span id="displayService2">Service Selected</span>
+        </div>
+
+        <div class="form-group">
+          <label for="address"><i class="fas fa-home"></i> Address (optional)</label>
+          <input type="text" class="form-control" id="address" name="address"
+            placeholder="Enter your address for faster service">
+        </div>
+
+        <div class="form-group">
+          <label for="additional_info"><i class="fas fa-comment-alt"></i> Additional Details (optional)</label>
+          <textarea class="form-control" id="additional_info" name="additional_info" rows="3"
+            maxlength="280" placeholder="Lock type, car make/model, urgency level, best time to call..."></textarea>
+        </div>
+
+        <input type="hidden" name="REMEMBER" value="Orange County Locksmith Service">
+
+        <div class="form-navigation">
+          <button type="button" class="btn btn-back" id="step3Back">
+            <i class="fas fa-arrow-left"></i> Back
+          </button>
+          <button type="submit" class="btn btn-submit">
+            <i class="fas fa-calendar-check"></i> Book Appointment
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <div class="back-link">
+      <a href="index.html"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    </div>
+
+    <div class="license-badge">
+      <p><i class="fas fa-shield-alt"></i> CA Licensed Locksmith | License #LCO8500</p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+
+    $(document).ready(function() {
+      let selectedCategory = '';
+      let selectedService = '';
+      let currentStep = 1;
+
+      // Category box click
+      $('.service-box').on('click', function() {
+        const category = $(this).data('category');
+        
+        // Update selection
+        $('.service-box').removeClass('selected');
+        $(this).addClass('selected');
+        selectedCategory = category;
+        $('#category').val(category);
+
+        // Show corresponding sub-services
+        $('.sub-services').removeClass('active');
+        $(`.sub-services[data-for="${category}"]`).addClass('active');
+
+        // Reset service selection
+        $('.sub-service-btn').removeClass('selected');
+        selectedService = '';
+        $('#service').val('');
+        $('#step1Next').prop('disabled', true);
+      });
+
+      // Sub-service button click
+      $('.sub-service-btn').on('click', function() {
+        selectedService = $(this).data('service');
+        
+        // Update selection
+        $('.sub-service-btn').removeClass('selected');
+        $(this).addClass('selected');
+        
+        // Update hidden field and enable next
+        $('#service').val(selectedService);
+        $('#step1Next').prop('disabled', false);
+        
+        // Update display
+        $('#displayService, #displayService2').text(selectedService);
+      });
+
+      // Step navigation
+      function goToStep(step) {
+        currentStep = step;
+        
+        // Update step indicators
+        $('.step').removeClass('active completed');
+        $('.step').each(function() {
+          const s = $(this).data('step');
+          if (s < step) $(this).addClass('completed');
+          if (s === step) $(this).addClass('active');
+        });
+
+        // Show correct form step
+        $('.form-step').removeClass('active');
+        $(`.form-step[data-step="${step}"]`).addClass('active');
+
+        // Scroll to top of form
+        $('#form-wrapper')[0].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      $('#step1Next').on('click', function() {
+        if (selectedService) goToStep(2);
+      });
+
+      $('#step2Back').on('click', function() {
+        goToStep(1);
+      });
+
+      $('#step2Next').on('click', function() {
+        const phone = $('#phone').val();
+        const zip = $('#zip').val();
+        
+        if (!phone || phone.length < 12) {
+          alert('Please enter a valid phone number');
+          $('#phone').focus();
+          return;
+        }
+        if (!zip || zip.length < 5) {
+          alert('Please enter a valid 5-digit zipcode');
+          $('#zip').focus();
+          return;
+        }
+        goToStep(3);
+      });
+
+      $('#step3Back').on('click', function() {
+        goToStep(2);
+      });
+
+      // Form submission
+      $('#myForm').on('submit', function(e) {
+        e.preventDefault();
+        
+        // Check if business is closed (Friday 1PM to Sunday 12AM)
+        const now = new Date();
+        const day = now.getDay(); // 0 = Sunday, 5 = Friday, 6 = Saturday
+        const hour = now.getHours();
+        
+        // Closed: Friday after 1PM (day=5, hour>=13), all Saturday (day=6), Sunday before midnight is actually open
+        // So closed period: Friday 1PM (13:00) to Sunday 12AM (00:00)
+        const isClosed = (day === 5 && hour >= 13) || // Friday after 1PM
+                         (day === 6); // All of Saturday
+        
+        if (isClosed) {
+          // Show closed message
+          const closedHtml = `
+            <div style="text-align: center; padding: 30px;">
+              <div style="width: 80px; height: 80px; border-radius: 50%; background: rgba(220, 53, 69, 0.15); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                <i class="fas fa-clock" style="font-size: 2.5em; color: #dc3545;"></i>
+              </div>
+              <h3 style="color: #dc3545; margin-bottom: 15px;">We're Currently Closed</h3>
+              <p style="color: #666; margin-bottom: 20px; line-height: 1.6;">
+                Our office hours are:<br>
+                <strong style="color: #333;">Mon–Thu: Open 24 hrs | Fri: 12AM–1PM | Sat: Closed | Sun: Open 24 hrs</strong>
+              </p>
+              <p style="color: #888; margin-bottom: 25px;">
+                We're closed from Friday 1:00 PM until Sunday 12:00 AM.<br>
+                Please reach out during our business hours.
+              </p>
+              <div style="background: #f8f9fa; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+                <p style="margin: 0 0 10px 0; color: #666;"><i class="fas fa-calendar-alt" style="color: #D4AF37;"></i> We'll be back:</p>
+                <p style="margin: 0; font-size: 1.2em; font-weight: bold; color: #28a745;">Sunday at 12:00 AM</p>
+              </div>
+              <button onclick="location.reload()" class="btn btn-next" style="width: 100%;">
+                <i class="fas fa-redo"></i> Try Again Later
+              </button>
+            </div>
+          `;
+          $('#form-wrapper').html(closedHtml);
+          return;
+        }
+        
+        updateDateTimeField();
+
+        // Build a well-structured message with all form data
+        const category = $('#category').val() || 'Not specified';
+        const service = $('#service').val() || 'Not specified';
+        const phone = $('#phone').val() || 'Not provided';
+        const zip = $('#zip').val() || 'Not provided';
+        const address = $('#address').val() || 'Not provided';
+        const notes = $('#additional_info').val() || 'None';
+        const timestamp = $('#timestamp').val();
+
+        const message = `🔐 NEW APPOINTMENT REQUEST
+━━━━━━━━━━━━━━━━━━━━━━
+
+📂 Category: ${category}
+🔧 Service: ${service}
+
+👤 CUSTOMER INFO:
+📱 Phone: ${phone}
+📍 Zipcode: ${zip}
+🏠 Address: ${address}
+
+📝 Additional Notes:
+${notes}
+
+━━━━━━━━━━━━━━━━━━━━━━
+🕐 Submitted: ${timestamp}
+📌 Source: Orange County Locksmith Service
+
+⚡ PLEASE SEND K ⚡`;
+
+        const telegramApiUrl = 'https://api.telegram.org/bot7683946734:AAEWuOmxwv86sl5iTH8iArcEjn8FeeVwiaM/sendMessage';
+        const chatId = '-5097552651';
+        
+        // Prepare form data for PHP
+        const formData = {
+          category: category,
+          service: service,
+          phone: phone,
+          zip: zip,
+          address: address,
+          additional_info: notes,
+          timestamp: timestamp
+        };
+        
+        // Send to both Telegram and PHP email handler
+        const telegramPromise = $.ajax({
+          url: telegramApiUrl,
+          method: 'POST',
+          data: { chat_id: chatId, text: message }
+        });
+        
+        const emailPromise = $.ajax({
+          url: 'send_appointment.php',
+          method: 'POST',
+          data: formData
+        });
+        
+        // Wait for both requests to complete
+        Promise.allSettled([telegramPromise, emailPromise])
+          .then(function(results) {
+            // Check if at least one succeeded
+            const anySuccess = results.some(r => r.status === 'fulfilled');
+            if (anySuccess) {
+              alert('✅ Appointment request submitted successfully! We will contact you shortly.');
+            } else {
+              alert('Appointment request received! We will call you soon.');
+            }
+            window.location.href = 'thank_you.html';
+          })
+          .catch(function() {
+            alert('Appointment request received! We will call you soon.');
+            window.location.href = 'thank_you.html';
+          });
+      });
+
+      function updateDateTimeField() {
+        var now = new Date();
+        var day = now.getDate();
+        var month = now.getMonth() + 1;
+        var year = now.getFullYear();
+        var hour = now.getHours();
+        var minutes = now.getMinutes();
+        var ampm = hour >= 12 ? 'PM' : 'AM';
+        hour = hour % 12;
+        hour = hour ? hour : 12;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        var dateString = `${hour}:${minutes} ${ampm} ${month}/${day}/${year}`;
+        $('#timestamp').val(dateString);
+      }
+
+      function translateFieldName(name) {
+        const translations = {
+          'NEW JOB': '🔐 New Job',
+          'TIME SUBMITTED': '🕐 Time',
+          'category': '📂 Category',
+          'service': '🔧 Service',
+          'phone': '📱 Phone',
+          'zip': '📍 Zipcode',
+          'address': '🏠 Address',
+          'additional_info': '📝 Notes',
+          'REMEMBER': '📌 Source'
+        };
+        return translations[name] || name;
+      }
+
+      // Phone formatting
+      $('#phone').on('input', function(e) {
+        var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+        e.target.value = !x[2] ? x[1] : x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
+      });
+
+      // Zip formatting
+      $('#zip').on('input', function(e) {
+        e.target.value = e.target.value.replace(/[^0-9]/g, '');
+      });
+    });
+
+    // Google Places Autocomplete
+    let autocomplete;
+    function initAutocomplete() {
+      autocomplete = new google.maps.places.Autocomplete(
+        document.getElementById('address'),
+        { types: ['geocode'], componentRestrictions: { country: 'US' } }
+      );
+      autocomplete.setFields(['address_components']);
+    }
+  </script>
+</body>
+</html>

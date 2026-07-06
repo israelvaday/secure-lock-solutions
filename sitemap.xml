@@ -97,7 +97,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://securelocksmithsolution.com/serv_form.html</loc>
+    <loc>https://securelocksmithsolution.com/serv-form.html</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -385,5 +385,11 @@
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://securelocksmithsolution.com/llms.txt</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>
