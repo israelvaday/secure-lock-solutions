@@ -6,26 +6,23 @@
   "status": "FINISHED",
   "scheme": "https",
   "errors": 0,
-  "warnings": 298,
-  "notices": 25,
+  "warnings": 285,
+  "notices": 2,
   "broken": 0,
-  "brokenDelta": -2,
+  "brokenDelta": 0,
   "blocked": 0,
   "blockedDelta": 0,
   "redirected": 1,
   "redirectedDelta": 0,
-  "healthy": 2,
-  "healthyDelta": 2,
-  "haveIssues": 66,
-  "haveIssuesDelta": 2,
+  "healthy": 3,
+  "healthyDelta": 1,
+  "haveIssues": 65,
+  "haveIssuesDelta": -1,
   "excludedBetaChecks": [],
   "defects": {
-    "112": 14,
-    "117": 28,
-    "213": 16,
+    "112": 9,
+    "117": 20,
     "135": 256,
-    "217": 6,
-    "219": 1,
     "205": 2
   },
   "markups": {
@@ -57,15 +54,14 @@
   },
   "depths": {
     "0": 5,
-    "1": 46,
-    "2": 18
+    "1": 62,
+    "2": 2
   },
   "crawlSubdomains": true,
   "respectCrawlDelay": false,
   "internalIncomingLinksGroups": {
-    "1": 16,
-    "2": 28,
-    "6": 4,
+    "2": 39,
+    "6": 9,
     "7": 8,
     "8": 9
   },
@@ -80,19 +76,19 @@
       "id": 1,
       "leftBorder": 1,
       "rightBorder": 1,
-      "count": 16
+      "count": 0
     },
     {
       "id": 2,
       "leftBorder": 2,
       "rightBorder": 5,
-      "count": 28
+      "count": 39
     },
     {
       "id": 6,
       "leftBorder": 6,
       "rightBorder": 15,
-      "count": 4
+      "count": 9
     },
     {
       "id": 7,
@@ -156,18 +152,18 @@
   "notify": true,
   "authEnabled": false,
   "user_agent_type": 8,
-  "last_audit": 1783312362164,
+  "last_audit": 1783313026282,
   "last_failed_audit": 0,
-  "next_audit": 1783917190519,
+  "next_audit": 1783917854332,
   "running_pages_crawled": 0,
   "running_pages_limit": 0,
   "pages_crawled": 69,
-  "pages_crawled_delta": 2,
+  "pages_crawled_delta": 0,
   "pages_limit": 200,
-  "total_checks": 29965,
-  "errors_delta": -2,
-  "warnings_delta": -5,
-  "notices_delta": -3,
+  "total_checks": 31031,
+  "errors_delta": 0,
+  "warnings_delta": -13,
+  "notices_delta": -23,
   "mask_allow": [],
   "mask_disallow": [],
   "removedParameters": [],
@@ -175,8 +171,8 @@
   "current_snapshot": {
     "isPagesLimitReached": false,
     "aiSearchScore": {
-      "value": 89,
-      "delta": 2
+      "value": 100,
+      "delta": 11
     },
     "thematicScores": {
       "https": {
@@ -189,19 +185,19 @@
       },
       "crawlability": {
         "value": 100,
-        "delta": 3
+        "delta": 0
       },
       "performance": {
         "value": 95,
         "delta": 0
       },
       "linking": {
-        "value": 96,
-        "delta": 2
+        "value": 100,
+        "delta": 4
       },
       "markups": {
         "value": 100,
-        "delta": 34
+        "delta": 0
       }
     },
     "errors": [
@@ -214,7 +210,7 @@
       {
         "id": 2,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 68
       },
       {
@@ -239,7 +235,7 @@
         "id": 8,
         "count": 0,
         "delta": 0,
-        "checks": 887
+        "checks": 967
       },
       {
         "id": 9,
@@ -371,7 +367,7 @@
         "id": 33,
         "count": 0,
         "delta": 0,
-        "checks": 1766
+        "checks": 1846
       },
       {
         "id": 38,
@@ -413,12 +409,12 @@
         "id": 44,
         "count": 0,
         "delta": 0,
-        "checks": 1229
+        "checks": 1334
       },
       {
         "id": 45,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 43
       },
       {
@@ -451,7 +447,7 @@
         "id": 31,
         "count": 0,
         "delta": 0,
-        "checks": 886
+        "checks": 966
       },
       {
         "id": 101,
@@ -462,13 +458,13 @@
       {
         "id": 102,
         "count": 0,
-        "delta": -17,
+        "delta": 0,
         "checks": 65
       },
       {
         "id": 103,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 65
       },
       {
@@ -480,7 +476,7 @@
       {
         "id": 106,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 65
       },
       {
@@ -493,7 +489,7 @@
         "id": 109,
         "count": 0,
         "delta": 0,
-        "checks": 1766
+        "checks": 1846
       },
       {
         "id": 110,
@@ -503,8 +499,8 @@
       },
       {
         "id": 112,
-        "count": 14,
-        "delta": 5,
+        "count": 9,
+        "delta": -5,
         "checks": 65
       },
       {
@@ -533,8 +529,8 @@
       },
       {
         "id": 117,
-        "count": 28,
-        "delta": 2,
+        "count": 20,
+        "delta": -8,
         "checks": 65
       },
       {
@@ -552,14 +548,14 @@
       {
         "id": 122,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 65
       },
       {
         "id": 123,
         "count": 0,
         "delta": 0,
-        "checks": 886
+        "checks": 966
       },
       {
         "id": 124,
@@ -630,14 +626,14 @@
       {
         "id": 135,
         "count": 256,
-        "delta": 8,
+        "delta": 0,
         "checks": 704
       },
       {
         "id": 136,
         "count": 0,
         "delta": 0,
-        "checks": 1229
+        "checks": 1334
       }
     ],
     "notices": [
@@ -650,7 +646,7 @@
       {
         "id": 137,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 1
       },
       {
@@ -674,7 +670,7 @@
       {
         "id": 203,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 1
       },
       {
@@ -698,7 +694,7 @@
       {
         "id": 207,
         "count": 0,
-        "delta": -3,
+        "delta": 0,
         "checks": 64
       },
       {
@@ -733,33 +729,33 @@
       },
       {
         "id": 213,
-        "count": 16,
-        "delta": 0,
+        "count": 0,
+        "delta": -16,
         "checks": 65
       },
       {
         "id": 214,
         "count": 0,
         "delta": 0,
-        "checks": 1766
+        "checks": 1846
       },
       {
         "id": 215,
         "count": 0,
         "delta": 0,
-        "checks": 899
+        "checks": 979
       },
       {
         "id": 216,
         "count": 0,
         "delta": 0,
-        "checks": 1022
+        "checks": 1170
       },
       {
         "id": 217,
-        "count": 6,
-        "delta": 1,
-        "checks": 1022
+        "count": 0,
+        "delta": -6,
+        "checks": 1170
       },
       {
         "id": 218,
@@ -769,8 +765,8 @@
       },
       {
         "id": 219,
-        "count": 1,
-        "delta": 1,
+        "count": 0,
+        "delta": -1,
         "checks": 1
       },
       {
@@ -802,33 +798,32 @@
       117,
       135,
       112,
-      205,
-      213
+      205
     ],
     "topInsights": [
       117,
       135,
       112,
-      219,
-      217
+      205
     ],
     "hidden": {},
     "fixed": {
       "45": 1,
       "122": 1,
-      "112": 9,
+      "112": 16,
       "2": 1,
       "135": 0,
       "102": 17,
-      "213": 0,
+      "213": 16,
       "103": 1,
       "203": 1,
       "137": 1,
-      "117": 26,
+      "117": 40,
       "205": 0,
       "106": 1,
-      "217": 5,
-      "207": 3
+      "217": 11,
+      "207": 3,
+      "219": 1
     },
     "statusCodeGroups": {
       "2": 68,
@@ -849,21 +844,21 @@
         "8": 0
       }
     },
-    "snapshot_id": "6a4b2eedb8060ebdf579f703",
+    "snapshot_id": "6a4b318c9339d506d9f10009",
     "snapshot_version": 15,
     "pages_crawled": 69,
     "pages_limit": 200,
-    "finish_date": 1783312362164,
+    "finish_date": 1783313026282,
     "quality": {
       "value": 96,
-      "delta": 11
+      "delta": 0
     },
     "user_agent_type": 8,
     "new": {
       "45": 1,
       "122": 1,
       "2": 1,
-      "112": 23,
+      "112": 25,
       "102": 17,
       "135": 256,
       "103": 1,
@@ -872,7 +867,7 @@
       "203": 1,
       "106": 1,
       "205": 2,
-      "117": 54,
+      "117": 60,
       "217": 11,
       "207": 3,
       "219": 1
@@ -906,7 +901,7 @@
     "status": 1,
     "link": "https://securelocksmithsolution.com/robots.txt",
     "errors": 0,
-    "changes": 11
+    "changes": 0
   },
   "data_will_be_removed": 0
 }
