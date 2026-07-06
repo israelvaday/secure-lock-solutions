@@ -25,3 +25,9 @@ Allow: /
 
 User-agent: DuckDuckBot
 Allow: /
+
+User-agent: SiteAuditBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
