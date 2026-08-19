@@ -2032,7 +2032,7 @@ ul.icons li a:hover {
 /* Wrappers */
 
 	#header-wrapper {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../../images/truck-hero.png");
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../../images/truck-hero.webp");
 		background-position: center center;
 		background-size: cover;
 		padding: 3em 0;
@@ -3327,5 +3327,26 @@ a.button.icon:hover {
 @media screen and (max-width: 640px) {
 	#footer .footer-grid {
 		grid-template-columns: 1fr;
+	}
+}
+
+/* Prevent AOS slide animations from widening the page */
+html, body {
+	overflow-x: hidden;
+}
+
+/* Keep footer text clear of the fixed call/book buttons */
+#footer {
+	padding-bottom: 7em !important;
+}
+
+/* Align multi-line values with the floated dt labels (Phone/Hours/etc.) */
+#footer .footer-col .contact dd {
+	margin: 0 0 0.8em 6.5em;
+}
+
+@media screen and (max-width: 736px) {
+	#footer {
+		padding-bottom: 10em !important;
 	}
 }
