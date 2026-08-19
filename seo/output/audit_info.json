@@ -15,9 +15,9 @@
   "redirected": 1,
   "redirectedDelta": 0,
   "healthy": 3,
-  "healthyDelta": 1,
+  "healthyDelta": 0,
   "haveIssues": 65,
-  "haveIssuesDelta": -1,
+  "haveIssuesDelta": 0,
   "excludedBetaChecks": [],
   "defects": {
     "112": 9,
@@ -152,9 +152,9 @@
   "notify": true,
   "authEnabled": false,
   "user_agent_type": 8,
-  "last_audit": 1783313026282,
+  "last_audit": 1783313444942,
   "last_failed_audit": 0,
-  "next_audit": 1783917854332,
+  "next_audit": 1783918253152,
   "running_pages_crawled": 0,
   "running_pages_limit": 0,
   "pages_crawled": 69,
@@ -162,8 +162,8 @@
   "pages_limit": 200,
   "total_checks": 31031,
   "errors_delta": 0,
-  "warnings_delta": -13,
-  "notices_delta": -23,
+  "warnings_delta": 0,
+  "notices_delta": 0,
   "mask_allow": [],
   "mask_disallow": [],
   "removedParameters": [],
@@ -172,7 +172,7 @@
     "isPagesLimitReached": false,
     "aiSearchScore": {
       "value": 100,
-      "delta": 11
+      "delta": 0
     },
     "thematicScores": {
       "https": {
@@ -193,7 +193,7 @@
       },
       "linking": {
         "value": 100,
-        "delta": 4
+        "delta": 0
       },
       "markups": {
         "value": 100,
@@ -500,7 +500,7 @@
       {
         "id": 112,
         "count": 9,
-        "delta": -5,
+        "delta": 0,
         "checks": 65
       },
       {
@@ -530,7 +530,7 @@
       {
         "id": 117,
         "count": 20,
-        "delta": -8,
+        "delta": 0,
         "checks": 65
       },
       {
@@ -730,7 +730,7 @@
       {
         "id": 213,
         "count": 0,
-        "delta": -16,
+        "delta": 0,
         "checks": 65
       },
       {
@@ -754,7 +754,7 @@
       {
         "id": 217,
         "count": 0,
-        "delta": -6,
+        "delta": 0,
         "checks": 1170
       },
       {
@@ -766,7 +766,7 @@
       {
         "id": 219,
         "count": 0,
-        "delta": -1,
+        "delta": 0,
         "checks": 1
       },
       {
@@ -844,11 +844,11 @@
         "8": 0
       }
     },
-    "snapshot_id": "6a4b318c9339d506d9f10009",
+    "snapshot_id": "6a4b331cb8060ebdf5873b36",
     "snapshot_version": 15,
     "pages_crawled": 69,
     "pages_limit": 200,
-    "finish_date": 1783313026282,
+    "finish_date": 1783313444942,
     "quality": {
       "value": 96,
       "delta": 0
