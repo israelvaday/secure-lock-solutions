@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://securelocksmithsolution.com/serv-form.html" />
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.css" />
+  <link rel="stylesheet" href="assets/css/aos.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzKaIbYBT2fG6I15vpJ5g6mOnoZL1b1fs&libraries=places&language=en&callback=initAutocomplete"
@@ -690,9 +690,9 @@
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.js"></script>
+  <script src="assets/js/aos.min.js"></script>
   <script>
-    AOS.init({ duration: 800, once: true });
+    window.AOS && AOS.init({ duration: 800, once: true });
 
     $(document).ready(function() {
       let selectedCategory = '';
