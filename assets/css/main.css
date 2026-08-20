@@ -3365,14 +3365,21 @@ html, body {
 }
 
 /* Rounded imagery with a subtle zoom on hover */
-.image,
-.image img {
+.image {
 	border-radius: 12px;
+	overflow: hidden;
+	/* keep rounded clipping during the child zoom transform (Chrome quirk) */
+	isolation: isolate;
+	transform: translateZ(0);
+}
+
+.image img {
+	border-radius: inherit;
+	display: block;
 }
 
 a.image {
 	display: inline-block;
-	overflow: hidden;
 }
 
 a.image img {
