@@ -3345,6 +3345,172 @@ html, body {
 	margin: 0 0 0.8em 6.5em;
 }
 
+/* ===== Design polish ===== */
+
+/* Softer cards: rounded corners + layered shadows + hover lift */
+.box {
+	border-radius: 14px;
+	box-shadow: 0 2px 6px rgba(20, 25, 40, 0.05), 0 12px 32px rgba(20, 25, 40, 0.08);
+}
+
+.box.excerpt,
+.box.feature1 .col-4 section,
+.box.highlight {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box.excerpt:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 14px rgba(20, 25, 40, 0.08), 0 18px 44px rgba(20, 25, 40, 0.12);
+}
+
+/* Rounded imagery with a subtle zoom on hover */
+.image,
+.image img {
+	border-radius: 12px;
+}
+
+a.image {
+	display: inline-block;
+	overflow: hidden;
+}
+
+a.image img {
+	transition: transform 0.45s ease;
+}
+
+a.image:hover img {
+	transform: scale(1.045);
+}
+
+/* Sleeker buttons */
+.button {
+	border-radius: 10px;
+	transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 10px 24px rgba(20, 25, 40, 0.18);
+}
+
+/* Gold accent under major section headings */
+header.major h2:after {
+	content: '';
+	display: block;
+	width: 64px;
+	height: 3px;
+	margin: 0.5em auto 0;
+	border-radius: 2px;
+	background: linear-gradient(90deg, #D4AF37, #B8860B);
+}
+
+/* Blog date badge */
+.box.excerpt .date {
+	display: inline-block;
+	background: linear-gradient(135deg, #D4AF37, #B8860B);
+	color: #fff;
+	font-weight: 700;
+	font-size: 0.75em;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	padding: 0.35em 1em;
+	border-radius: 50px;
+	margin-bottom: 0.75em;
+}
+
+/* Customer Reviews section */
+#reviews-wrapper {
+	background: linear-gradient(135deg, #10101e 0%, #1a1a3e 55%, #0d1f3c 100%);
+	padding: 5em 0 5.5em;
+}
+
+#reviews-wrapper header.major h2 {
+	color: #fff;
+}
+
+#reviews-wrapper header.major p {
+	color: #b9bdc9;
+}
+
+.reviews-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.6em;
+	margin-top: 2.25em;
+}
+
+.review-card {
+	position: relative;
+	background: rgba(255, 255, 255, 0.045);
+	border: 1px solid rgba(212, 175, 55, 0.28);
+	border-radius: 16px;
+	padding: 2em 1.7em 1.6em;
+	transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+	transform: translateY(-6px);
+	border-color: rgba(212, 175, 55, 0.65);
+	box-shadow: 0 16px 44px rgba(0, 0, 0, 0.38);
+}
+
+.review-card:before {
+	content: '\201C';
+	position: absolute;
+	top: -0.12em;
+	right: 0.3em;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 5.5em;
+	line-height: 1;
+	color: rgba(212, 175, 55, 0.18);
+	pointer-events: none;
+}
+
+.review-stars {
+	color: #D4AF37;
+	letter-spacing: 4px;
+	font-size: 0.95em;
+	margin-bottom: 1em;
+}
+
+.review-quote {
+	color: #e9eaef;
+	font-style: italic;
+	line-height: 1.75;
+	margin: 0 0 1.3em;
+}
+
+.review-author {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	padding-top: 0.9em;
+}
+
+.review-author strong {
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+
+.review-author span {
+	color: #9aa0ae;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-top: 3px;
+}
+
+@media screen and (max-width: 980px) {
+	.reviews-grid {
+		grid-template-columns: 1fr;
+	}
+
+	#reviews-wrapper {
+		padding: 3.5em 0 4em;
+	}
+}
+
 @media screen and (max-width: 736px) {
 	#footer {
 		padding-bottom: 10em !important;
